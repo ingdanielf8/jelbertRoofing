@@ -17,7 +17,9 @@ html body {
 // NavBar --------------------------------------------------
 .companyLogo img {
   width: 150px;
-  // position: absolute;
+}
+.navBar{
+  text-align-last: center;
 }
 .navbar-expand-md .navbar-nav .dropdown-menu {
   background-color: transparent;
@@ -28,15 +30,21 @@ html body {
 .dropdown-item:focus, .dropdown-item:hover{
   background-color: #67788f9c !important;
 }
-
+.contactNumber a{
+  color: #ecad39d4 !important;
+  font-weight: bold;
+}
 // CONTENT ------------------------------------------------
 // Section top
 .sectionTop {
   background-image: url(../assets/img/backgroundRoof4.jpg);
   background-size: cover;
   background-position: 40%;
-  position: relative;
+  position: absolute;
+  top: 0;
+  z-index: -1;
   height: 800px;
+  width: 100%;
 }
 .sectionTop::before {
   content: "";
@@ -46,7 +54,7 @@ html body {
   bottom: 0px;
   left: 0px;
   opacity: 0.75;
-  background-color: rgba(0, 0, 0, 0.60);
+  background-color: rgba(0, 0, 0, 0.70);
 }
 .emergencyServices{
   position: relative;
