@@ -1,0 +1,56 @@
+html body {
+  overflow-x: hidden;
+}
+
+.title-1 {
+  position: relative;
+  font-size: 4rem;
+  margin-top: 35vh;
+}
+
+.header a {
+  color: white !important;
+}
+
+.companyLogo img {
+  width: 150px;
+}
+
+.navbar-expand-md .navbar-nav .dropdown-menu {
+  background-color: transparent;
+  border: 0;
+  border-top: 3px solid white;
+  border-radius: 0%;
+}
+
+.dropdown-item:focus, .dropdown-item:hover {
+  background-color: #67788f9c !important;
+}
+
+.sectionTop {
+  background-image: url(../assets/img/backgroundRoof4.jpg);
+  background-size: cover;
+  background-position: 40%;
+  position: relative;
+  height: 800px;
+}
+
+.sectionTop::before {
+  content: "";
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.75;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.emergencyServices {
+  position: relative;
+}
+
+.emergencyBoxText p {
+  background-color: #67788f9c;
+}
+/*# sourceMappingURL=style.css.map */
